@@ -18,7 +18,6 @@ public class LinkedList<T> {
         void setData(T data) {
             this.data = data;
         }
-
     }
 
     private LinkedListNode<T> head;
@@ -135,17 +134,4 @@ public class LinkedList<T> {
         return size;
     }
 
-    public static void main(String[] args) {
-        LinkedList<String> dlls = new LinkedList<>();
-
-        dlls.addFirst("ahmad");
-        dlls.addFirst("Sana");
-        dlls.addLast("Mays");
-        dlls.removeLast();
-        dlls.addFirst("who am");
-        dlls.removeFirst();
-        dlls.addLast("who am");
-        System.out.println(dlls);
-
-    }
 }
